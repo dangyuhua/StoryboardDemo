@@ -1,28 +1,25 @@
 //
-//  ItemOneVC.m
+//  SecondVC.m
 //  StoryboardDemo
 //
-//  Created by 党玉华 on 2018/12/9.
+//  Created by 党玉华 on 2018/12/10.
 //  Copyright © 2018年 dangyuhua. All rights reserved.
 //
 
-#import "ItemOneVC.h"
 #import "SecondVC.h"
 
-@interface ItemOneVC ()
+@interface SecondVC ()
 
 @end
 
-@implementation ItemOneVC
+@implementation SecondVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 - (IBAction)btnClick:(id)sender {
-    SecondVC *vc = [[SecondVC alloc]initWithNibName:@"SecondVC" bundle:nil];
-    vc.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:vc animated:YES];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 /*

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC78730621BE06FC0077F29C /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC78730421BE06FC0077F29C /* SecondVC.m */; };
+		FC78730721BE06FC0077F29C /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC78730521BE06FC0077F29C /* SecondVC.xib */; };
 		FC7E7A4821BB7DDB00FE15AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E7A4721BB7DDB00FE15AB /* AppDelegate.m */; };
 		FC7E7A4E21BB7DDB00FE15AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7E7A4C21BB7DDB00FE15AB /* Main.storyboard */; };
 		FC7E7A5021BB7DDC00FE15AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7E7A4F21BB7DDC00FE15AB /* Assets.xcassets */; };
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC78730321BE06FC0077F29C /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		FC78730421BE06FC0077F29C /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		FC78730521BE06FC0077F29C /* SecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
 		FC7E7A4321BB7DDB00FE15AB /* StoryboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7E7A4621BB7DDB00FE15AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC7E7A4721BB7DDB00FE15AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,6 +130,9 @@
 				FC7E7A8221BD707700FE15AB /* ItemThreeVC.m */,
 				FC7E7A8421BD715000FE15AB /* OtherVC.h */,
 				FC7E7A8521BD715000FE15AB /* OtherVC.m */,
+				FC78730321BE06FC0077F29C /* SecondVC.h */,
+				FC78730421BE06FC0077F29C /* SecondVC.m */,
+				FC78730521BE06FC0077F29C /* SecondVC.xib */,
 				FC7E7A4C21BB7DDB00FE15AB /* Main.storyboard */,
 				FC7E7A4F21BB7DDC00FE15AB /* Assets.xcassets */,
 				FC7E7A5121BB7DDC00FE15AB /* LaunchScreen.storyboard */,
@@ -257,6 +265,7 @@
 			files = (
 				FC7E7A5321BB7DDC00FE15AB /* LaunchScreen.storyboard in Resources */,
 				FC7E7A5021BB7DDC00FE15AB /* Assets.xcassets in Resources */,
+				FC78730721BE06FC0077F29C /* SecondVC.xib in Resources */,
 				FC7E7A4E21BB7DDB00FE15AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +293,7 @@
 			files = (
 				FC7E7A8321BD707700FE15AB /* ItemThreeVC.m in Sources */,
 				FC7E7A7D21BD705E00FE15AB /* ItemOneVC.m in Sources */,
+				FC78730621BE06FC0077F29C /* SecondVC.m in Sources */,
 				FC7E7A5621BB7DDC00FE15AB /* main.m in Sources */,
 				FC7E7A7A21BB7EA000FE15AB /* TabbarVC.m in Sources */,
 				FC7E7A4821BB7DDB00FE15AB /* AppDelegate.m in Sources */,
